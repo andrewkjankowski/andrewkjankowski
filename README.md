@@ -1,4 +1,4 @@
-### I build AI products end-to-end — strategy through shipped software — as a solo operator.
+### I build AI products end-to-end - strategy through shipped software - as a solo operator.
 
 12 years in product management and engineering. I identify high-impact AI opportunities, architect the system, and ship working software. Not decks. Not recommendations. Working things people use.
 
@@ -52,7 +52,7 @@ I start with the user problem, not the technology. I architect for production tr
 
 **Background**
 
-- Director of Product at Crexi (early stage → $500M+ valuation)
+- Director of Product at Crexi (early stage → $100M+ in ARR)
 - Built fintech products: real-time account opening, FICO integrations driving $3M+ ARR
 - Built and shipped Eagleye Golf (iOS, SwiftUI) — consumer golf training platform
 - Dartmouth — Engineering + Studio Art, CS minor. 4-year varsity golf, All-Ivy.
