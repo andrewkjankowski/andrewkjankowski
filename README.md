@@ -1,14 +1,18 @@
-### I build AI products end-to-end - strategy through shipped software - as a solo operator.
+### I build AI products end to end, strategy through shipped software, as a solo operator.
 
 12 years in product management and engineering. I identify high-impact AI opportunities, architect the system, and ship working software. Not decks. Not recommendations. Working things people use.
 
+**Portfolio:** [djankowski.com](https://djankowski.com)
+
 ---
 
-**What I'm building now**
+**What I am building now**
 
-[**Minerva Forge**](https://minervaforge.com) — Productized AI consulting. Companies subscribe monthly, I do strategy + build. One senior builder, fixed price, async-first. From problem identification to deployed product.
+[**Minerva Forge**](https://www.minervaforge.com): Productized AI consulting. Companies subscribe monthly, I do strategy and build. One senior builder, fixed price, async-first. From problem identification to deployed product.
 
-[**Minerva Mental**](https://minervamental.com) — AI-powered athlete performance OS. Multi-agent architecture with 6 specialist agents (strength & conditioning, nutrition, sports psychology, technical coaching, recovery, orchestrator). Real-time collaboration between AI agents and human coaches. Core system built in ~1 week solo.
+[**Minerva Mental**](https://www.minervamental.com): AI-powered athlete performance OS. Multi-agent architecture with 6 specialist agents (strength and conditioning, nutrition, sports psychology, technical coaching, recovery, orchestrator). Real-time collaboration between AI agents and human coaches. Core system built in about 1 week solo.
+
+[**Auranova**](https://www.getauranova.com): AI-powered presentation web apps from structured outlines. Paste notes, pick a theme, get a full-screen, shareable deck with its own URL. I designed and built it end to end (product, UX, engineering). Alpha, iterating on narrative and templates. Next.js 14, React, Prisma, OpenAI, JWT auth. Source private during alpha; a public repo will be linked here when I publish one.
 
 ---
 
@@ -16,7 +20,7 @@
 
 `Problem → Architecture → Build → Ship → Learn → Iterate`
 
-I start with the user problem, not the technology. I architect for production tradeoffs (cost, latency, maintainability), not demo polish. I ship fast and learn from real usage. Every system I build is designed to be handed off cleanly — full source, documented, no vendor lock-in.
+I start with the user problem, not the technology. I architect for production tradeoffs (cost, latency, maintainability), not demo polish. I ship fast and learn from real usage. Every system I build is designed to be handed off cleanly: full source, documented, no vendor lock-in.
 
 ---
 
@@ -24,7 +28,7 @@ I start with the user problem, not the technology. I architect for production tr
 
 - Multi-agent AI orchestration (tool-calling, cross-agent collaboration, memory systems)
 - Full-stack product development (React, TypeScript, Python, Swift)
-- AI-assisted development workflows (Cursor, Claude, GPT — building at 5-10x speed)
+- AI-assisted development workflows (Cursor, Claude, GPT: building at 5 to 10x speed)
 - Supabase architecture (PostgreSQL, pgvector, RLS, Realtime, Edge Functions)
 - Streaming AI interfaces (SSE, structured output, reasoning traces)
 - Product strategy for AI-native products (when to use AI, when not to, pricing, trust)
@@ -34,30 +38,47 @@ I start with the user problem, not the technology. I architect for production tr
 **Recent build: Minerva Mental**
 
 | Dimension | Detail |
-|-----------|--------|
+| :--- | :--- |
 | **What** | Athlete performance OS with multi-agent AI architecture |
-| **Timeline** | Core system built in ~1 week |
-| **Agents** | 6 AI specialists + human coach integration |
-| **Stack** | React 19, TypeScript, Supabase (pgvector + RLS + Realtime), Vercel, OpenAI/Anthropic |
+| **Timeline** | Core system built in about 1 week |
+| **Agents** | 6 AI specialists and human coach integration |
+| **Stack** | React 19, TypeScript, Supabase (pgvector + RLS + Realtime), Vercel, OpenAI and Anthropic |
 | **Architecture** | Multi-provider AI abstraction, agentic tool-calling, SSE streaming, admin console for agent lifecycle management |
 | **Design** | Dark institutional UI, trust-first (transparent agent memory, reasoning traces, user override controls) |
 
 **Problem:** Serious athletes lack structured infrastructure for their development. Information lives in silos across coaches, apps, and notebooks. Nothing connects the dots.
 
-**Approach:** Instead of a single chatbot, I built a council of specialized agents that collaborate in real-time — each with domain expertise, shared context via pgvector, and full transparency into their reasoning. Athletes own their data and can view/edit/delete anything the AI "knows."
+**Approach:** Instead of a single chatbot, I built a council of specialized agents that collaborate in real time, each with domain expertise, shared context via pgvector, and full transparency into their reasoning. Athletes own their data and can view, edit, or delete anything the AI knows.
 
-**Tradeoffs:** Chose Supabase over a custom backend for speed-to-ship while keeping PostgreSQL's power (pgvector, RLS, Realtime). Chose multi-agent over monolithic LLM for specialization depth at the cost of orchestration complexity. Trust-first design (full reasoning transparency) over black-box simplicity.
+**Tradeoffs:** Chose Supabase over a custom backend for speed to ship while keeping PostgreSQL power (pgvector, RLS, Realtime). Chose multi-agent over monolithic LLM for specialization depth at the cost of orchestration complexity. Trust-first design (full reasoning transparency) over black-box simplicity.
+
+---
+
+**Recent build: Auranova**
+
+| Dimension | Detail |
+| :--- | :--- |
+| **What** | Outline to shareable presentation: AI-generated slides, themes, full-screen viewer, optional password, accounts and dashboard |
+| **Status** | Alpha, active development |
+| **Stack** | Next.js 14 App Router, React 18, Prisma, OpenAI API, JWT (jose, bcryptjs), PDF export, CLI for workflows |
+| **Positioning** | Narrative clarity and typography-first constraints over messy slide-tool chaos; every deck gets a URL |
+
+**Problem:** Teams that think in structured outlines still present in fragmented slide tools and lose clarity in formatting churn.
+
+**Approach:** Enforce slide types and templates, generate from outline with AI, ship a live URL per deck so sharing is a link, not a file attachment.
+
+**Tradeoffs:** Opinionated templates and flow versus infinite customization; SQLite locally with a path to Postgres for production.
 
 ---
 
 **Background**
 
-- Director of Product at Crexi (early stage → $100M+ in ARR)
-- Built fintech products: real-time account opening, FICO integrations driving $3M+ ARR
-- Built and shipped Eagleye Golf (iOS, SwiftUI) — consumer golf training platform
-- Dartmouth — Engineering + Studio Art, CS minor. 4-year varsity golf, All-Ivy.
+- Director of Product at [Crexi](https://www.crexi.com), first PM hire (early stage to roughly $100M+ ARR)
+- Fintech: real-time account opening, FICO integrations driving $3M+ ARR
+- Built and shipped Eagleye Golf (iOS, SwiftUI), consumer golf training platform
+- Dartmouth: Engineering and Studio Art, CS minor. 4-year varsity golf, All-Ivy.
 - Venture For America Fellow
 
 ---
 
-[minervaforge.com](https://minervaforge.com) · [LinkedIn](https://linkedin.com/in/drewjankowski)
+[minervaforge.com](https://www.minervaforge.com) · [getauranova.com](https://www.getauranova.com) · [minervamental.com](https://www.minervamental.com) · [djankowski.com](https://djankowski.com) · [LinkedIn](https://www.linkedin.com/in/drewjankowski)
